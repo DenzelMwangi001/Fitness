@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggy's GYM</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Services Section */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .service img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .service h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .service p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Trainers Section */
+        .trainers {
+            background-color: #fff;
+        }
+
+        .trainer {
+            display: inline-block;
+            margin: 20px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .trainer img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .trainer h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .trainer p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background-color: #f4f4f4;
+        }
+
+        .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .testimonial p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .testimonial cite {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #fff;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .contact a {
+            color: #ff6600;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Biggy's Gym</h1>
+        <p>Strength | Fitness | Maximization</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Biggy's Gym</h2>
+        <p>
+            Welcome to Biggy's Gym, where fitness meets maximization. 
+            We are dedicated to helping you achieve your fitness goals through state-of-the-art facilities, expert trainers, and a supportive environment.
+             Whether you're a beginner or a seasoned athlete, we have something for everyone.
+    </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="Gym Equipment.jpg" alt="Equipment">
+            <h3>State-of-the-Art Equipment</h3>
+            <p>We provide the latest fitness equipment to help you achieve your goals.</p>
+        </div>
+        <div class="service">
+            <img src="Personal training.png" alt="Personal Training">
+            <h3>Personal Training</h3>
+            <p>Our certified trainers offer personalized coaching to meet your needs.</p>
+        </div>
+        <div class="service">
+            <img src="Group gym session.jpg" alt="Group Classes">
+            <h3>Group Classes</h3>
+            <p>Join our fun and energetic group classes designed for all fitness levels.</p>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div class="trainer">
+            <img src="dwayne_johnson_the_rock.webp" alt="Dwayne Johnson">
+            <h3>Dwayne Johnson</h3>
+            <p>Certified Personal Trainer with over 14 years of experience.</p>
+        </div>
+        <div class="trainer">
+            <img src="The Liver King.jpeg" alt="Brian Johnson">
+            <h3>Brian Johnson</h3>
+            <p>Specializes in strength training and nutrition.</p>
+        </div>
+        <div class="trainer">
+            <img src="EmilySkye.jpeg" alt="Emily Skye">
+            <h3>Emily Skye</h3>
+            <p>Expert in HIIT and injury prevention.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial">
+            <img src="Sara k.jpg" alt="Sara K.">
+            <p>"Biggy's Gym changed my life! The trainers are amazing, and the community is so supportive."</p>
+            <cite>- Sarah R</cite>
+        </div>
+        <div class="testimonial">
+            <img src="Benson K.jpeg" alt="Benson K.">
+            <p>"I love the variety of classes and the state-of-the-art equipment. Best gym ever!"</p>
+            <cite>- Benson M.</cite>
+        </div>
+    </div>
+    <div class="testimonial">
+        <img src="Kelvin m.jpeg" alt="Kelvin M.">
+        <p>"Biggy's Gym is simply the best. The trainers are top-notch, and the facilities are excellent."</p>
+        <cite>- Kelvin M.</cite>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:denzelkm001@gmail.com">info@biggydgym.com</a></p>
+        <p>Phone: (+254) 784 196 525</p>
+        <p>Address: 497 Voi Street, Taita Taveta County, Kenya</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Biggy's Gym. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
